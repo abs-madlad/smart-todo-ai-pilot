@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Plus, Brain, Calendar, Filter, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -23,7 +22,7 @@ const Index = () => {
       category: "Work",
       priority: 9,
       deadline: "2025-01-08",
-      status: "pending",
+      status: "pending" as const,
       aiSuggested: true,
       aiInsights: "High priority based on upcoming deadline and email context"
     },
@@ -34,7 +33,7 @@ const Index = () => {
       category: "Personal",
       priority: 5,
       deadline: "2025-01-06",
-      status: "pending",
+      status: "pending" as const,
       aiSuggested: false
     },
     {
@@ -44,7 +43,7 @@ const Index = () => {
       category: "Health",
       priority: 6,
       deadline: "2025-01-15",
-      status: "completed",
+      status: "completed" as const,
       aiSuggested: true,
       aiInsights: "Suggested based on calendar analysis"
     }
