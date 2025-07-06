@@ -1,0 +1,18 @@
+# Django Configuration
+SECRET_KEY=django-insecure-your-secret-key-change-this-in-production-12345
+DEBUG=True
+
+# Database Configuration (using SQLite for development)
+SUPABASE_DB_NAME=not_used
+SUPABASE_DB_USER=not_used
+SUPABASE_DB_PASSWORD=not_used
+SUPABASE_DB_HOST=not_used
+SUPABASE_DB_PORT=5432
+
+# AI Integration - LM Studio
+LM_STUDIO_BASE_URL=http://localhost:1234
+OPENAI_API_KEY=
+ANTHROPIC_API_KEY=
+
+# Optional: Additional settings
+ALLOWED_HOSTS=localhost,127.0.0.1 
