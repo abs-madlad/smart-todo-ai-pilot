@@ -22,3 +22,43 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+instructions.txt
+venv/
+db.sqlite3
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Backend Python/Django
+backend/venv/
+backend/env/
+backend/.env
+backend/db.sqlite3
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+backend/staticfiles/
+backend/media/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.Python
+*.so
+
+# Environment files
+.env
+*.env.local
+*.env.production
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# AI Models (if using local models)
+*.gguf
+*.bin
+models/
